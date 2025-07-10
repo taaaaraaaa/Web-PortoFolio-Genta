@@ -1,0 +1,217 @@
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portofolio Saya - Genta Ramadhan</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+
+    <header>
+        <div class="header-content" data-aos="fade-down">
+        <img src="images/foto-profil.jpg" alt="Foto Genta Ramadhan" class="profile-photo" />
+        <h1>Halo, Saya <span class="highlight">Genta Ramadhan</span></h1>
+        <p>Web Developer | UI/UX Designer | Freelancer | Network Engineer | Android Developer</p>
+        </div>
+        <nav>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Proyek</a>
+        <a href="#testimonials">Testimoni</a>
+        <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah lulusan SMK Telkom Jakarta yang memiliki minat kuat dalam bidang jaringan komputer dan teknologi informasi. Saat ini saya sedang menempuh pendidikan S1 Teknik Informatika di Universitas Pamulang dan aktif mengembangkan keterampilan teknis seperti konfigurasi jaringan menggunakan Cisco Packet Tracer, dan troubleshooting jaringan menggunakan Cisco, GNS3, dan Winbox, serta pernah membangun topologi jaringan lengkap satu gedung dengan routing RIP, OSPF, dan EIGRP. serta mempelajari dasar-dasar pemrograman. Saya memiliki pengalaman langsung di lapangan sebagai Teknisi PSB di PT Telkom Indonesia serta telah dinyatakan kompeten oleh BNSP dalam bidang Junior Network Administrator. Saya dikenal sebagai pribadi yang cepat belajar, mampu bekerja dalam tim, dan siap berkembang sebagai Network Engineer di industri teknologi.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-right">
+        <h2>Skill</h2>
+
+        <div class="skill"><p>HTML</p><div class="bar"><div style="width: 90%"></div></div></div>
+        <div class="skill"><p>CSS</p><div class="bar"><div style="width: 80%"></div></div></div>
+        <div class="skill"><p>JavaScript</p><div class="bar"><div style="width: 75%"></div></div></div>
+        <div class="skill"><p>Mobile Programming (Java, Kotlin, Android Studio)</p><div class="bar"><div style="width: 85%"></div></div></div>
+        <div class="skill"><p>UI/UX Design (Figma, Adobe XD, Prototyping)</p><div class="bar"><div style="width: 80%"></div></div></div>
+        <div class="skill"><p>Network Engineering (Cisco, Mikrotik, Subnetting)</p><div class="bar"><div style="width: 88%"></div></div></div>
+    </section>
+
+    <section id="projects" data-aos="fade-left">
+        <h2>Proyek</h2>
+
+        <div class="project-card">
+        <h3>Website Sekolah</h3>
+        <p>Website informasi sekolah dengan fitur login dan manajemen data siswa.</p>
+        <img src="images/website-sekolah.png" alt="Website Sekolah" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <a href="file:///C:/Users/asus/OneDrive/Documents/Bina%20Iman%20Anak/folder%20bia/website%20Bia.html" target="_blank">🌐 Lihat Proyek</a>
+        </div>
+
+        <div class="project-card">
+        <h3>Aplikasi Android: Google Lens Application</h3>
+        <img src="images/google-lens.jpg" alt="Google Lens" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <p>Aplikasi Android berbasis Java menggunakan ML Kit dan RecyclerView. Fitur: deteksi objek, OCR, dan pencarian Google otomatis.</p>
+        <a href="https://github.com/taaaaraaaa/Google-Lens-Application" target="_blank">🔗 Lihat di GitHub</a> |
+        <a href="c:\Users\asus\AndroidStudioProjects\GoogleLensApplication2\app\build\outputs\apk\debug\Genta Ramadhan - Google Lens Application.apk" target="_blank">⬇️ Unduh APK</a>
+        </div>
+
+        <div class="project-card">
+        <h3>Aplikasi Android:Aplikasi Edukasi Interaktif Untuk difabel </h3>
+        <img src="images/edukasi-difabel.jpg" alt="Quiz Edukasi" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <p>Aplikasi edukasi Interaktif Untuk difabel dengan fitur Pilih Materi:
+
+Pengguna bisa memilih mata pelajaran:
+
+Matematika
+
+Bahasa Indonesia
+
+Fisika, Soal Akan Tampil di Sini:
+
+Area untuk menampilkan soal sesuai materi yang dipilih, Rekam Suara (🎤 Rekam Suara):
+
+Fitur ini memungkinkan pengguna menjawab soal dengan suara.
+
+Diduga menggunakan Speech Recognition untuk mendeteksi jawaban.
+
+Skor dan Grafik Skor:
+
+Menampilkan nilai (skor) pengguna.
+
+Grafik menampilkan perkembangan skor.
+
+Reset Skor:
+
+Mengatur ulang skor ke 0.
+
+Histori Skor:
+
+Melihat riwayat skor sebelumnya.
+
+Ganti Mode Siang/Malam:
+
+Mengubah tampilan UI antara mode terang dan gelap.</p>
+        <a href="https://github.com/taaaaraaaa/Aplikasi-Edukasi-Interaktif-untuk-Difabel" target="_blank">🔗 Lihat di GitHub</a>
+        </div>
+
+    <div class="project-card">
+        <h3>Aplikasi Android: Gemini AI Assistant</h3>
+        <img src="images/gemini-ai.jpg" alt="Gemini AI App" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <p>Aplikasi Android berbasis Java yang terintegrasi dengan Gemini AI (Google Generative AI). Pengguna dapat mengetik pertanyaan dan menerima jawaban langsung dari AI.</p>
+        <ul>
+        <li>➤ Input pertanyaan</li>
+        <li>➤ Tanyakan ke Gemini dengan 1 klik</li>
+        <li>➤ Jawaban AI tampil otomatis</li>
+        <li>➤ Desain UI responsif dan ringan</li>
+        </ul>
+        <a href="https://github.com/taaaaraaaa/Latihan-14-Ai" target="_blank">🔗 Lihat di GitHub</a> |
+        <a href="c:\Users\asus\AndroidStudioProjects\Latihan14Ai\app\build\outputs\apk\debug\Genta Ramadhan - Gemini.apk" target="_blank">⬇️ Unduh APK</a>
+    </div>
+
+    <div class="project-card">
+    <h3>Aplikasi Android: Keuangan Pribadi</h3>
+    <img src="images/keuangan-pribadi.jpg" alt="Keuangan Pribadi" style="width:100%; border-radius:10px; margin-bottom:10px;">
+    <p>Aplikasi Android untuk mencatat dan memantau pengeluaran pribadi harian, mingguan, dan bulanan. Dibuat menggunakan Java dan SQLite.</p>
+    <ul>
+        <li>➤ Kategori pengeluaran: Makan, Hobi, Kantor, Rumah Tangga, Kendaraan, dll.</li>
+        <li>➤ Perhitungan otomatis kas dan pengeluaran</li>
+        <li>➤ Tampilan sederhana, intuitif, dan mudah digunakan</li>
+        <li>➤ Menyimpan data transaksi secara lokal menggunakan SQLite</li>
+    </ul>
+    <a href="https://github.com/taaaaraaaa/Aplikasi-Keuangan-Pribadi" target="_blank">🔗 Lihat di GitHub</a> |
+    <a href="c:\Users\asus\AndroidStudioProjects\aplikasimanajemenkeuangan\app\build\outputs\apk\debug\Apk Keuangan pribadi - Genta Ramadhan.apk" target="_blank">⬇️ Unduh APK</a>
+    </div>
+
+
+        <div class="project-card">
+        <h3>UI/UX Design: Aplikasi Asisten Produktivitas Adaptif</h3>
+        <img src="images/uiux-booking.png" alt="UI UX Booking App" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <p>Desain prototipe Aplikasi Asisten Produktivitas Adaptif untuk Membantu pengguna mengatur tugas harian dan aktivitas berdasarkan waktu dan suasana hati (pagi/sore/malam), Memberikan rekomendasi cerdas dan pengingat personal, Menyesuaikan konten dan saran berdasarkan kebiasaan pengguna (adaptif).</p>
+        <a href="https://www.figma.com/file/EXAMPLE_ID/Booking-App" target="_blank">🎨 Lihat di Figma</a>
+        </div>
+
+        <div class="project-card">
+        <h3>Network Engineering: Konfigurasi Cisco & Mikrotik</h3>
+        <img src="images/network-project.png" alt="Network Project" style="width:100%; border-radius:10px; margin-bottom:10px;">
+        <p>Simulasi dan implementasi jaringan menggunakan Cisco Packet Tracer dan Mikrotik RouterOS. Termasuk konfigurasi IP, routing OSPF, VLAN, NAT, dan pengujian koneksi.</p>
+        <a href="https://github.com/taaaaraaaa/Cisco-Packet-Tracer-" target="_blank">🔗 Lihat Dokumentasi di GitHub</a> |
+        <a href="https://drive.google.com/file/d/1ThcpgNKpZc1jnRlkLZJGiTIUsYrebxmj/view?usp=drive_link" target="_blank">📄 Lihat Laporan PDF</a>
+        </div>
+    </section>
+
+        <section id="testimoni">
+    <h2>Testimoni</h2>
+    <div class="testimonial-box">
+        <span> Klien A</span>
+        <p>"Sangat profesional dan hasil kerjanya bagus!"</p>
+    </div>
+    <div class="testimonial-box">
+        <span> Klien B</span>
+        <p>"Pengerjaannya cepat dan komunikatif."</p>
+    </div>
+    </section>
+
+
+    <section id="contact" data-aos="fade-up">
+    <h2>Kontak</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Nama" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+    <p id="successMessage"></p>
+
+    <div class="contact-info">
+        <h3>Hubungi Saya</h3>
+        <p><i class="fas fa-envelope"></i> gentagentaramadhan@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +62 895-3225-89140 / +62 812-8953-6006</p>
+        <p><i class="fas fa-map-marker-alt"></i> Jakarta Barat, Indonesia</p>
+        
+        <div class="social-icons">
+        <p><a href="https://www.instagram.com/g_12_28/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> Instagram
+        </a></p>
+
+        <p><a href="https://www.linkedin.com/in/genta-ramadhan-852ba820b/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a></p>
+
+        <p><a href="https://github.com/taaaaraaaa" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+        </a></p>
+        </div>
+    </div>
+    </section>
+
+
+
+    <footer>
+        <p>© 2025 Genta Ramadhan</p>
+        <div class="socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        }
+    </script>
+    </body>
+    </html>
